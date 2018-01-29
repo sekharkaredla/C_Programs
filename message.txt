@@ -1,0 +1,26 @@
+
+Word is : WHY
+Binary is : 
+01010111
+01001000
+01011001
+Word is : i<3u
+Binary is : 
+01101001
+00111100
+00110011
+01110101
+Word is : i
+Binary is : 
+01101001
+Word is : like
+Binary is : 
+01101100
+01101001
+01101011
+01100101
+Word is : you
+Binary is : 
+01111001
+01101111
+01110101

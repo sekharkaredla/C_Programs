@@ -1,0 +1,12 @@
+Task for Week-2
+Write the programs for the following questions from the text book "Object-Oriented Programming with C++", compile, execute, modify and upload the screenshots.
+
+Tasks:
+
+For the questions 2.1 to 2.3 on page number 27 (debugging questions) test and then modify the code to rectify the errors
+Write the code for the programming exercises 2.1 to 2.6 and execute then upload the screenshots.
+Note: 
+
+You can work on groups an submit individually. Each group is of 6 members with successive roll numbers
+include proper indentation and comments to your program code.
+Put all program file under one directory and give the folder name as <taskname> followed by the last three digits of your hall ticket number. Example if the task is week_2 and and your roll number is 160114733061 then the folder name will be week_2_061. put your source files and screen shots our output in that folder. 

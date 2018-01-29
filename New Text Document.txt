@@ -1,0 +1,77 @@
+3.3
+#include<iostream>
+using namespace std;
+int main()
+{
+        int i,j,m;
+        cout<<"enter the no of lines : ";
+        cin>>m;
+        for(i=1;i<=m;i++)
+        {
+                for(j=1;j<=i;j++)
+                {
+                        cout<<i;
+                }
+                cout<<"\n";
+        }
+return 1;
+}
+3.4
+#include<iostream>
+using namespace std;
+int main()
+{
+	int m;
+	cout<<"enter the size of vector : ";
+	cin>>m;
+	int *p=new int[m];
+	cout<<"\n the starting address of vector is : "<<p;
+	cout<<"\n the ending address of vector is : "<<(p+m);
+	return 1;
+}
+3.7 a
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float s,t,x,i,j,n;
+	cout<<"enter x in degrees : ";
+	cin>>x;
+	x=x*(3.141/180);
+	for(j=3;j<1000;j++)
+	{s=0;t=x;
+	for(i=2;i<=j;i++)
+	{
+		s=s+t;
+		t=t*-1*x*x/(2*(i-1)*(2*i-1));
+	}
+	if(((s-sin(x))>-0.00001)&&(s-sin(x))<0.00001)
+	{
+		cout<<"\nthe original value of sinx is : "<<sin(x);
+		cout<<"\nthe obtained value of sinx is : "<<s;
+		cout<<"\nthe order is : "<<j;
+		break;
+	}
+	}
+return 1;
+}
+3.7 b
+#include<iostream>
+using namespace std;
+int main()
+{
+	float s,k,j,n,t;t=1;
+	cout<<"enter N : ";
+	cin>>n;float p=1;
+	for(float i=1;i<=n;i++)
+	{s=s+p;t=1;
+		for(float j=0;j<i;j++)
+		{
+			t=t*(1/(i+1));
+		}
+		p=t;
+	}
+	cout<<"the sum is : "<<s;
+return 1;	
+}
